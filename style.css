@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    background-color: #7B9970;
+    width: 30vw;
+    height: 100vh;
+    margin: 0;
+}
+
+section {
+
+    background-color: #C50537 ;
+    width: 70vw;
+    height: 100vh;
+    margin: 0;
+}   
