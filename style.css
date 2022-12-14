@@ -62,7 +62,7 @@ button {
     }
 
 .instructions {
-    background-color: #F0D890;
+    background-color: white;
     margin: 5%;
     margin-top: 40px;
     border-radius: 25px;
@@ -79,4 +79,21 @@ button {
     padding-right: 25px;
     text-align: justify;
     
+}
+
+#anadir-nombre{
+    background-color: white;
+    margin: 5%;
+    margin-top: 40px;
+    padding: .5rem;
+    border-radius: 25px;
+    border: solid black 5px;
+    font-family: 'Indie_Flower';
+    font-size: large;
+
+}
+
+#boton-anadir{
+    background-color: white;
+    color: black;
 }

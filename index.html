@@ -14,21 +14,27 @@
 
        <div class="instructions">
 
-         <h1>Instrucciones</h1>
+         <h1>Lista de Alumnos</h1>
 
          <hr>
 
          <p id="texto-instructions">
-            Hola a todos! <br> <br>
-
-            Habéis entrado al sorteo del calendario navideño de adviento. <br> <br>
             
-            Como podéis observar, hay una serie de fotos a vuestra derecha que corresponderán con un alumno o alumna aunque, no lo sabréis hasta que no se seleccione la foto. Una vez seleccionada, aparecerá el nombre que haya salido aleatoriamente junto con una SORPRESITA!!!! <br> <br>
-            
-            La persona que ha aprecido en la foto será la elegida para el ejercicio o actividad que os ha propuesto vuestro profesor o profesora !!!
          </p>
 
        </div>
+
+       <form action="/my-handling-form-page" method="post" id="anadir-nombre">
+        <ul>
+         <li>
+           <label for="name">Nombre</label>
+           <input type="text" id="name" name="user_name">
+         </li>
+        </ul>
+       </form>
+       
+
+       <button id="boton-anadir">Añadir</button>
 
        <button>¡Escoge un alumno!</button>
 
