@@ -7,43 +7,35 @@
     <title>La ruleta navideña</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
 </head>
 <body>
     <aside>
-
        <div class="instructions">
-
          <h1>Lista de Alumnos</h1>
-
          <hr>
-
          <p id="texto-instructions">
-            
          </p>
-
        </div>
 
-       <form action="/my-handling-form-page" method="post" id="anadir-nombre">
+       <form action="/index.html" method="post" id="anadir-nombre">
         <ul>
          <li>
            <label for="name">Nombre</label>
-           <input type="text" id="name" name="user_name">
+           <input type="text" id="nombresAlumnos" name="user_name">
          </li>
         </ul>
        </form>
        
-
-       <button id="boton-anadir">Añadir</button>
+       <button id="boton-anadir" type="submit">Añadir</button>
 
        <button>¡Escoge un alumno!</button>
-
     </aside>
 
     <section>
         <div class="fotos"></div>
     </section>
 
+    <script src="index.js"></script>
 
 </body>
 </html>

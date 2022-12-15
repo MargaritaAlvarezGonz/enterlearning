@@ -3,7 +3,7 @@ document.querySelector('#boton-anadir').addEventListener('click', agregar);
 let nombres = [];
 
 function agregar(){
-    let nombres=document.querySelector('#nombre').value;
+    let nombres=document.getElementById('#nombresAlumnos').value;
 
     nombres.push(nombre);
     console.log(nombres);
