@@ -80,3 +80,10 @@ button {
     text-align: justify;
     
 }
+
+#portada-calendario{
+    width: 70vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}

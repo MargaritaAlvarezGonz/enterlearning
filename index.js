@@ -126,6 +126,8 @@ const codersList = [
     },
 ]
 
-
+function QuitarPortadaCalendario(){
+    document.getElementById('portada-calendario').style.display = 'none';
+}
 
 

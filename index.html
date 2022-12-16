@@ -16,7 +16,7 @@
          <p id="texto-instructions">
          </p>
        </div>
-
+       
        <form action="/index.html" method="post" id="anadir-nombre">
         <ul>
          <li>
@@ -29,10 +29,13 @@
        <button id="boton-anadir" type="submit">Añadir</button>
 
        <button>¡Escoge un alumno!</button>
+
+       <button onclick="QuitarPortadaCalendario();" id="bt-abrir-calendario">¡Abre el calendario!</button>
     </aside>
 
     <section>
-        <div class="fotos"></div>
+      <img src="./imagenes/portada calendario.png" alt="portada-calendario" id="portada-calendario">
+      <div class="fotos"></div>
     </section>
 
     <script src="index.js"></script>
