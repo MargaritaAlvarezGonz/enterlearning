@@ -128,6 +128,8 @@ const codersList = [
 
 function QuitarPortadaCalendario(){
     document.getElementById('portada-calendario').style.display = 'none';
+    document.getElementById('apartado-instrucciones').style.display = 'none';
 }
+
 
 

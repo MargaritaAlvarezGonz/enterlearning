@@ -9,29 +9,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    
     <aside>
-       <div class="instructions">
-         <h1>Lista de Alumnos</h1>
-         <hr>
-         <p id="texto-instructions">
-         </p>
-       </div>
-       
-       <form action="/index.html" method="post" id="anadir-nombre">
-        <ul>
-         <li>
-           <label for="name">Nombre</label>
-           <input type="text" id="nombresAlumnos" name="user_name">
-         </li>
-        </ul>
-       </form>
-       
-       <button id="boton-anadir" type="submit">Añadir</button>
-
-       <button>¡Escoge un alumno!</button>
-
-       <button onclick="QuitarPortadaCalendario();" id="bt-abrir-calendario">¡Abre el calendario!</button>
+        <!-- Este div corresponde al apartado instrucciones -->
+        <div id="contenedorAside">
+            <div class="instructions" id="apartado-instrucciones">
+                <h1>Instrucciones</h1>
+                <hr>
+                <p id="texto-instructions">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas beatae fugit enim explicabo numquam fuga ipsam reprehenderit aut voluptatibus commodi iure earum distinctio magni ut corporis error eum laudantium, saepe ex? Inventore, itaque repellat provident cupiditate dignissimos quas sapiente hic soluta adipisci repellendus quibusdam optio deserunt ex aperiam in! Doloribus, quod inventore accusamus sint atque possimus dolorum ea ipsam repellendus ducimus nulla nihil enim aspernatur maxime est et fugiat explicabo accusantium voluptas temporibus nobis eius deleniti esse facere! Eaque nemo facilis dolores, vitae eligendi perferendis quae, nesciunt suscipit excepturi rerum, distinctio laudantium ea iusto omnis saepe? Tempore veritatis doloremque tenetur.
+                </p>
+            </div>
+        </div>
+    
+       <div id="contenedor-botones">
+            <button>¡Escoge un alumno!</button>
+            <button onclick="QuitarPortadaCalendario();" id="bt-abrir-calendario">¡Abre el calendario!</button>
+        </div>
     </aside>
+        
+
+       
 
     <section>
       <img src="./imagenes/portada calendario.png" alt="portada-calendario" id="portada-calendario">
