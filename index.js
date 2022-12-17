@@ -1,4 +1,4 @@
-document.querySelector('#boton-anadir').addEventListener('click', agregar);
+/* document.querySelector('#boton-anadir').addEventListener('click', agregar);
 
 let nombres = [];
 
@@ -20,3 +20,22 @@ for (let elementoActual of nombres) {
     lista.innerHTML += "<li>" + elementoActual + "</li>"
 }
 }
+*/
+const divList = document.querySelector('.listHolder');
+
+const addInput = document.querySelector('#addInput');
+const addBtn = document.querySelector('#addBtn');
+
+function addLists() {
+    const ul = divList.querySelector('ul');
+    const li = document.createElement('li');
+    li.innerHTML = addInput.value;
+    addInput.value = ''; //limpia el input
+    ul.appendChild(li);
+}
+
+addBtn.addEventListener('click', () => {
+  addLists();  
+});
+
+
