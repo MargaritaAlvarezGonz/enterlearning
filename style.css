@@ -49,17 +49,7 @@ hr {
     margin-top: 15px;
 }
 
-button {
-    font-family: 'Permanent_Marker';
-    font-size: medium;
-    margin: 30%;
-    margin-top: 0;
-    border-radius: 25px;
-    padding: 15px;
-    color: white;
-    background-color: #C50537;
-    border: solid black 5px;
-    }
+
 
 .instructions {
     background-color: white;
@@ -98,3 +88,38 @@ button {
     color: black;
 }
 
+.listHolder{
+    background-color: white;
+    margin: 5%;
+    margin-top: 0px;
+    padding: .5rem;
+    border-radius: 25px;
+    border: solid black 5px;
+    font-family: 'Indie_Flower';
+    font-size: large;
+      
+}
+
+#addInput{
+    background-color: white;
+    margin: 5%;
+    margin-top: 0;
+    padding: .5rem;
+    border-radius: 10px;
+    border: solid black 3px;
+    font-family: 'Indie_Flower';
+    font-size: large;
+    
+}
+
+button {
+    font-family: 'Permanent_Marker';
+    font-size: medium;
+    margin: 30%;
+    margin-top: 0;
+    border-radius: 25px;
+    padding: 15px;
+    color: white;
+    background-color: #C50537;
+    border: solid black 5px;
+    }
