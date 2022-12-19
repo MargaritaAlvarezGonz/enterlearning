@@ -4,6 +4,6 @@ for (let i = 1; i < 26; i++) {
 }
 
 function seleccionImgAleatoria(listaFotos) {
-  return listaFotos[] 
+
 }
 console.log(seleccionImgAleatoria(listaFotos));
