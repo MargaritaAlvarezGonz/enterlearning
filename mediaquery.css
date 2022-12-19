@@ -1,0 +1,6 @@
+@media screen (max-width: 56.25rem){
+    aside{
+        display: flex;
+        flex-direction:row;
+    }
+}
