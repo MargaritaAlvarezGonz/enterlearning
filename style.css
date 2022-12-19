@@ -24,7 +24,6 @@ aside {
 }
 
 section {
-
     background-color: #C50537 ;
     width: 70vw;
     height: 100vh;
@@ -50,17 +49,7 @@ hr {
     margin-top: 15px;
 }
 
-button {
-    font-family: 'Permanent_Marker';
-    font-size: medium;
-    margin: 30%;
-    margin-top: 0;
-    border-radius: 25px;
-    padding: 15px;
-    color: white;
-    background-color: #C50537;
-    border: solid black 5px;
-    }
+
 
     button:hover{
         border: 1px solid;
@@ -88,6 +77,73 @@ button {
     padding-right: 25px;
     text-align: justify;
     
+}
+
+#anadir-nombre{
+    background-color: white;
+    margin: 5%;
+    margin-top: 40px;
+    padding: .5rem;
+    border-radius: 25px;
+    border: solid black 5px;
+    font-family: 'Indie_Flower';
+    font-size: large;
+
+}
+
+#boton-anadir{
+    background-color: white;
+    color: black;
+}
+
+.listHolder{
+    background-color: white;
+    margin: 5%;
+    margin-top: 0px;
+    padding: .5rem;
+    border-radius: 25px;
+    border: solid black 5px;
+    font-family: 'Indie_Flower';
+    font-size: large;
+      
+}
+
+#addInput{
+    background-color: white;
+    margin: 5%;
+    margin-top: 0;
+    padding: .5rem;
+    border-radius: 10px;
+    border: solid black 3px;
+    font-family: 'Indie_Flower';
+    font-size: large;
+    
+}
+
+button {
+    font-family: 'Permanent_Marker';
+    font-size: medium;
+    margin: 30%;
+    margin-top: 0;
+    border-radius: 25px;
+    padding: 15px;
+    color: white;
+    background-color: #C50537;
+    border: solid black 5px;
+    }
+#listaFotos{
+    width: 70vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#listaFotos img{
+    height:9.1875rem;
+    width:9.1875rem;
 }
 
 #portada-calendario{
