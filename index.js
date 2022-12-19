@@ -15,5 +15,9 @@ addBtn.addEventListener('click', () => {
   addLists();  
 });
 
+let itemsLists = document.querySelectorAll(".list.li");
+
+[...itemsLists].map(alumno => alumno.textContent);
+
 
 
