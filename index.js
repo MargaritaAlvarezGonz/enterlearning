@@ -32,10 +32,15 @@ function addLists() {
     li.innerHTML = addInput.value;
     addInput.value = ''; //limpia el input
     ul.appendChild(li);
+    return nombre;
+     
 }
 
 addBtn.addEventListener('click', () => {
-  addLists();  
+  addLists();
+    
+  
 });
+
 
 
