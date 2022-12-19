@@ -9,10 +9,7 @@
 }
 
 body {
-    margin: 0;
     background-color: antiquewhite;
-    width: 100%;
-    height: auto;
     display: flex;
     flex-direction: row;
 }
@@ -86,4 +83,46 @@ button {
     height: 100vh;
     background-size: cover;
     background-position: center;
+}
+
+
+
+@media (max-width: 50rem){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        background-color: #C50537 ;
+        width: 100vw;
+        height: 80vh;
+        margin: 0;
+    }
+    
+    #portada-calendario{
+        width: 100vw;
+        height: 80vh;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    button {
+        font-family: 'Permanent_Marker';
+        font-size: medium;
+        height: 10vh;
+        margin: .125rem;
+        border-radius: 25px;
+        padding: .125rem;
+        }
+
 }
