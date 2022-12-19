@@ -1,59 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La ruleta navideña</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="reset.css" />  
+    <link rel="stylesheet" href="./style.css">    
+    <link rel="shortcut icon" href="">
+  </head>
+  <body>
+
+    
+
+
     <aside>
-       <div class="instructions">
-         <h1>Lista de Alumnos</h1>
-         <hr>
-         <p id="texto-instructions">
-         </p>
-       </div>
-
-    <div class="container">
-      <div class="todoBlock">
-        
-        <div class="todoList">
-          <div class="listHolder">
-            <ul class="list">
-              <!--<li>
-                <span class="listName">Paola</span>
-              </li>
-              <li>
-                <span class="listName">Nohe</span>
-              </li> -->
-            </ul>            
-          </div>
-          <div class="formHolder">
-            <div class="cool big">
-              <input type="text" id="addInput">
-            </div>
-            <div class="col">
-              <button type="button" id="addBtn" class="btn-primary">Agregar</button>
-            </div>
-          </div>
-        </div>
-        <!--<button type="button" id="selectorBtn" class="btn-secundary">Escoge un alumno</button> -->
-
-      </div>
+        <div class="container">
+            <div class="todoBlock">
+              
+              <div class="todoList">
+                <div class="listHolder">
+                  <ul class="list">
+                    <!--<li>
+                      <span class="listName">Paola</span>
+                    </li>
+                    <li>
+                      <span class="listName">Nohe</span>
+                    </li> -->
+                  </ul>            
+                </div>
+                <div class="formHolder">
+                  <div class="cool big">
+                    <input type="text" id="addInput">
+                  </div>
+                  <div class="col">
+                    <button type="button" id="addBtn" class="btn-primary">Agregar</button>
+                  </div>
+                </div>
+              </div>
+              <!--<button type="button" id="selectorBtn" class="btn-secundary">Escoge un alumno</button> -->
       
-    </div>
-
-
+            </div>
+            
+          </div>      
     </aside>
 
-    <section>
-        <div class="fotos"></div>
+    <section class="fotos">
+      <div id="listaFotos">
+     
+      </div>
     </section>
-
-    <script src="index.js"></script>
-
-</body>
+    <script src="./index.js"></script>
+   <script src='./fotos.js'></script>
+    
+    
+  </body>
 </html>
