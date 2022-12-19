@@ -1,7 +1,6 @@
 var listaFotos = document.querySelector('#listaFotos');
-for (let i= 0; i=24;i++) {
-  listaFotos.innerHTML = '<p> eeeeee </p>';
+for (let i= 1; i<26;i++) {
+  listaFotos.innerHTML += `<img src="./imagenes/calendarioDeAdviento/Dia${i}.png" alt="" class='estilo'>`;
 }
 
 
-//<img src="./imagenes/calendarioDeAdviento/Dia ${i}.png" alt="" class=''>
