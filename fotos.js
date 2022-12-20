@@ -18,7 +18,3 @@ fotoParaTapar.style.backgroundColor = '#FF00FF';
 }
 
 
-
-
- 
-
