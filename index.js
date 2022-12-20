@@ -19,10 +19,13 @@ addBtn.addEventListener('click', () => {
 
 });
 
+<<<<<<< HEAD
 // let itemsLists = document.querySelectorAll(".list.li");
 
 // [...itemsLists].map(alumno => alumno.textContent);
 
+=======
+>>>>>>> f3f90a45a2a1c45c1f69b379a1761bebb742112a
 //Función que activa el botón para abrir el calendario
 // Funcion del boton que abre el calendario
 function QuitarPortadaCalendario(){
