@@ -1,43 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La ruleta navideña</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="reset.css" />  
+    <link rel="stylesheet" href="./style.css">    
+    <link rel="shortcut icon" href="">
+  </head>
+  
+  <body>
 
-    
     <aside>
-        <!-- Este div corresponde al apartado instrucciones -->
-        <div id="contenedorAside">
-            <div class="instructions" id="apartado-instrucciones">
-                <h1>Instrucciones</h1>
-                <hr>
-                <p id="texto-instructions">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas beatae fugit enim explicabo numquam fuga ipsam reprehenderit aut voluptatibus commodi iure earum distinctio magni ut corporis error eum laudantium, saepe ex? Inventore, itaque repellat provident cupiditate dignissimos quas sapiente hic soluta adipisci repellendus quibusdam optio deserunt ex aperiam in! Doloribus, quod inventore accusamus sint atque possimus dolorum ea ipsam repellendus ducimus nulla nihil enim aspernatur maxime est et fugiat explicabo accusantium voluptas temporibus nobis eius deleniti esse facere! Eaque nemo facilis dolores, vitae eligendi perferendis quae, nesciunt suscipit excepturi rerum, distinctio laudantium ea iusto omnis saepe? Tempore veritatis doloremque tenetur.
-                </p>
+        <div class="container">
+            <div class="todoBlock">
+              <h1>Lista de alumnos</h1>
+              <div class="todoList">
+                <div class="listHolder">
+                  <ul class="list">
+                    <!--<li>
+                      <span class="listName">Paola</span>
+                    </li>
+                    <li>
+                      <span class="listName">Nohe</span>
+                    </li> -->
+                  </ul>            
+                </div>
+                <div class="formHolder">
+                  <div class="cool big">
+                    <input type="text" id="addInput">
+                  </div>
+                  <div class="col">
+                    <button type="button" id="addBtn" class="btn-primary">Agregar</button>
+                  </div>
+                </div>
+              </div>
+              <!--<button type="button" id="selectorBtn" class="btn-secundary">Escoge un alumno</button> -->
+      
             </div>
-        </div>
-    
-       <div id="contenedor-botones">
-            <button>¡Escoge un alumno!</button>
-            <button onclick="QuitarPortadaCalendario();" id="bt-abrir-calendario">¡Abre el calendario!</button>
-        </div>
+            
+          </div>
+          <div class="cntBotones">
+            <button onclick="QuitarPortadaCalendario();" id="bt-abrir-calendario">¡Abre el calendario!</button> 
+            <button>¡Escoge!</button>
+          </div>
+               
     </aside>
         
 
        
 
-    <section>
+    <section class="fotos">
+      
+      <div id="listaFotos">
+                             
+      </div>
       <img src="./imagenes/portada calendario.png" alt="portada-calendario" id="portada-calendario">
-      <div class="fotos"></div>
     </section>
-
-    <script src="index.js"></script>
-
-</body>
+    <script src="./index.js"></script>
+   <script src='./fotos.js'></script>
+    
+    
+  </body>
 </html>
