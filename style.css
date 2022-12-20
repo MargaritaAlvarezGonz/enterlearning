@@ -28,9 +28,6 @@ section {
     width: 70vw;
     height: 100vh;
     margin: 0;
-}
-
-section img{
     position: relative;
 }
 
@@ -49,9 +46,24 @@ hr {
     margin-top: 15px;
 }
 
+.cntBotones{
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    font-family: 'Permanent_Marker';
+    font-size: medium;
+    margin: .625rem ; 
+    border-radius: 25px;
+    padding: 15px;
+    color: white;
+    background-color: #C50537;
+    border: solid black 5px;
+    }
 
 
-    button:hover{
+button:hover{
         border: 1px solid;
         box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
         outline-color: rgba(255, 255, 255, 0);
@@ -96,19 +108,29 @@ hr {
     color: black;
 }
 
+.todoList{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
 .listHolder{
+    height: 30vh;
+    width: 25vw;
     background-color: white;
     margin: 5%;
-    margin-top: 0px;
+    margin-top: .625rem;
     padding: .5rem;
     border-radius: 25px;
     border: solid black 5px;
     font-family: 'Indie_Flower';
     font-size: large;
+    overflow-y: scroll;
       
 }
 
 #addInput{
+    width: 25vw;
     background-color: white;
     margin: 5%;
     margin-top: 0;
@@ -120,17 +142,7 @@ hr {
     
 }
 
-button {
-    font-family: 'Permanent_Marker';
-    font-size: medium;
-    margin: 30%;
-    margin-top: 0;
-    border-radius: 25px;
-    padding: 15px;
-    color: white;
-    background-color: #C50537;
-    border: solid black 5px;
-    }
+
 #listaFotos{
     width: 70vw;
     height: 100vh;
@@ -139,6 +151,7 @@ button {
     grid-template-rows: auto auto auto auto auto;
     align-items: center;
     justify-content: space-around;
+    position: absolute;
 }
 
 #listaFotos img{
@@ -151,11 +164,11 @@ button {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    position: absolute;
 }
 
 
-
-@media (max-width: 50rem){
+@media (max-width: 56.25rem){
     body{
         display: flex;
         flex-direction: column;
@@ -165,7 +178,7 @@ button {
         height: 20vh;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
     }
 
@@ -187,10 +200,34 @@ button {
     button {
         font-family: 'Permanent_Marker';
         font-size: medium;
-        height: 10vh;
+        height: 6vh;
         margin: .125rem;
         border-radius: 25px;
         padding: .125rem;
         }
 
+    #listaFotos{
+        width: 100vw;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    h1{
+        padding: 0%;
+    }
+
+    .listHolder{
+        width: 25vw;
+        height: 4vh;
+        overflow-y: scroll;
+    }
+
+    .btn-primary{
+        width: 15vw;
+        height: 3vh;
+    }
 }

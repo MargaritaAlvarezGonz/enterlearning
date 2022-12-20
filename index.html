@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="./style.css">    
     <link rel="shortcut icon" href="">
   </head>
-  <body> 
+  
+  <body>
 
     <aside>
         <div class="container">
             <div class="todoBlock">
-              
+              <h1>Lista de alumnos</h1>
               <div class="todoList">
                 <div class="listHolder">
                   <ul class="list">
@@ -40,14 +41,19 @@
             </div>
             
           </div>
-          <button onclick="QuitarPortadaCalendario();" id="bt-abrir-calendario">¡Abre el calendario!</button>      
+          <div class="cntBotones">
+            <button onclick="QuitarPortadaCalendario();" id="bt-abrir-calendario">¡Abre el calendario!</button> 
+            <button>¡Escoge!</button>
+          </div>
+               
     </aside>
 
     <section class="fotos">
-      <img src="./imagenes/portada calendario.png" alt="portada-calendario" id="portada-calendario">
+      
       <div id="listaFotos">
-     
+                             
       </div>
+      <img src="./imagenes/portada calendario.png" alt="portada-calendario" id="portada-calendario">
     </section>
     <script src="./index.js"></script>
    <script src='./fotos.js'></script>
