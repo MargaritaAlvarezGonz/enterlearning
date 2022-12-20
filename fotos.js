@@ -1,9 +1,16 @@
 let listaFotos = document.querySelector('#listaFotos');
 for (let i = 1; i < 26; i++) {
-  listaFotos.innerHTML += `<img src="./imagenes/calendarioDeAdviento/Dia${i}.png" alt="" class='estilo'>`;
+  listaFotos.innerHTML += `<img src="./imagenes/calendarioDeAdviento/Dia${i}.png" alt="" class='dia${i}'>`;
 }
 
-function seleccionImgAleatoria(listaFotos) {
-
+function seleccionImgAleatoria() {
+let randomNum = Math.floor(Math.random()*26)
+return (randomNum)
 }
-console.log(seleccionImgAleatoria(listaFotos));
+
+function tapadora(i) {
+  let fotoParaTapar = document.querySelector(`.dia${i}`);
+  fotoParaTapar.style.backgroundColor = '#FF00FF';
+}
+
+function 
