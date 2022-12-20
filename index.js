@@ -17,31 +17,12 @@ function addLists() {
 addBtn.addEventListener('click', () => {
     addLists();
 
-
 });
 
-// let itemsLists = document.querySelectorAll(".list li");
-
-// [...itemsLists].map(alumno => alumno.textContent);
-
-
-// function randomFunc([itemsLists]) { 
-//     for (let i = 0; i < 2; i++) { 
-//         const random = [itemsLists][Math.floor(Math.random() * [itemsLists].length)]; 
-//         return random 
-
-//     } 
-
-// } 
-
- function randomFunc(itemsLists) {
-     let random = itemsLists[Math.floor(Math.random()) * itemsLists.length];
+function randomFunc(itemsLists) {
+     let random = itemsLists[Math.floor(Math.random() * itemsLists.length)];
      return random;
  }
 
-
-//console.log(randomFunc(itemsLists));
-
-// function randomFunc() {
-//     return itemsLists[Math.floor(Math.random()) * (itemsLists.length)];
-// }
+// let itemsLists = document.querySelectorAll(".list li");
+// [...itemsLists].map(alumno => alumno.textContent);
