@@ -14,7 +14,16 @@ randomNum = num;
 function tapadora(randomNum) {
 console.log(randomNum);
 let fotoParaTapar = document.getElementById(randomNum);
-fotoParaTapar.style.backgroundColor = '#FF00FF'; 
+fotoParaTapar.style.backgroundColor = '#C5EDE4'; 
 }
+
+function onClickButton() {
+seleccionImgAleatoria(); 
+tapadora(randomNum); 
+}
+
+
+
+
 
 

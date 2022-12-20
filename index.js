@@ -1,5 +1,4 @@
 const divList = document.querySelector('.listHolder');
-
 const addInput = document.querySelector('#addInput');
 const addBtn = document.querySelector('#addBtn');
 
@@ -34,3 +33,4 @@ function randomFunc(itemsLists) {
 
 // let itemsLists = document.querySelectorAll(".list li");
 // [...itemsLists].map(alumno => alumno.textContent);
+
