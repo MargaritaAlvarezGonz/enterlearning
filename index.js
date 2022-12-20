@@ -25,7 +25,7 @@ function QuitarPortadaCalendario(){
     document.getElementById('apartado-instrucciones').style.display = 'none';
 }
 
-
+//Función randomizadora
 function randomFunc(itemsLists) {
      let random = itemsLists[Math.floor(Math.random() * itemsLists.length)];
      return random;
