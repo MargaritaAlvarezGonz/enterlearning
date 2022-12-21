@@ -31,7 +31,8 @@ function randomFunc(itemsLists) {
      randomNum = Math.floor(Math.random() * itemsLists.length) + 1;
      let random = itemsLists[randomNum];
      console.log(random);
-     return random;
+    //  return random;
+    ctnGanador.innerHTML=`<div class='resultado'> ${random}</div>`
  }
 
 // let itemsLists = document.querySelectorAll(".list li");
@@ -56,5 +57,14 @@ tapadora(randomNum);
 
 }
 
+//Función para que suene música al sonar el boton elegir! 
+let boton = document.querySelector(".reproductor")
+let audioEtiqueta = document.querySelector("audio")
+
+boton.addEventListener("click", () => {
+    audioEtiqueta.setAttribute("src", "ruta_a_tu_archivo")
+    audioEtiqueta.play()
+    console.log(`Reproduciendo: ${audioEtiqueta.src}`)
+    })
 
 
