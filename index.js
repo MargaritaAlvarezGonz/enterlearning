@@ -18,6 +18,13 @@ addBtn.addEventListener('click', () => {
 
 });
 
+addInput.addEventListener('keyup', (event) => {
+    if(event.which === 13) {
+      addLists();
+    }
+  }
+)
+
 //Función que activa el botón para abrir el calendario
 // Funcion del boton que abre el calendario
 function QuitarPortadaCalendario(){
