@@ -37,18 +37,14 @@ h1 {
     text-align: center;
     color: #941F1F;
     padding-top: 30px;
+    margin: 0;
 }
 
 hr {
     border: solid black;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 15px;
-}
-
-.cntBotones{
-    display: flex;
-    flex-direction: row;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 3px;
 }
 
 button {
@@ -60,7 +56,7 @@ button {
     color: white;
     background-color: #C50537;
     border: solid black 5px;
-    }
+}
 
 
 button:hover{
@@ -71,6 +67,18 @@ button:hover{
     text-shadow: 1px 1px 2px #427388; 
 }
 
+.col{
+    margin-left: 32%;
+    margin-bottom: 17%;
+}
+
+.cntBotones{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-left: 4.5%;
+}
+
 .instructions {
     background-color: white;
     margin: 5%;
@@ -79,32 +87,6 @@ button:hover{
     border: solid black 5px;
     font-family: 'Indie_Flower';
     font-size: large;
-}
-
-#texto-instructions {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
-    text-align: justify;
-    
-}
-
-#anadir-nombre{
-    background-color: white;
-    margin: 5%;
-    margin-top: 40px;
-    padding: .5rem;
-    border-radius: 25px;
-    border: solid black 5px;
-    font-family: 'Indie_Flower';
-    font-size: large;
-
-}
- 
-#boton-anadir{
-    background-color: white;
-    color: black;
 }
 
 .todoList{
@@ -128,11 +110,29 @@ button:hover{
       
 }
 
+#boton-anadir{
+    background-color: white;
+    color: black;
+}
+
+#anadir-nombre{
+    background-color: white;
+    margin: 5%;
+    margin-top: 40px;
+    padding: .5rem;
+    border-radius: 25px;
+    border: solid black 5px;
+    font-family: 'Indie_Flower';
+    font-size: large;
+
+}
+ 
 #addInput{
     width: 25vw;
     background-color: white;
-    margin: 5%;
+    margin: 0%;
     margin-top: 0;
+    margin-left: 5%;
     padding: .5rem;
     border-radius: 10px;
     border: solid black 3px;
@@ -141,6 +141,14 @@ button:hover{
     
 }
 
+#texto-instructions {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    
+}
 
 #listaFotos{
     width: 70vw;

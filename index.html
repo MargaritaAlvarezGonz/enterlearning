@@ -5,62 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La ruleta navideña</title>
-    <link rel="stylesheet" href="reset.css" />  
-    <link rel="stylesheet" href="./style.css">    
-    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="" />
     <!-- <audio src="./Audio/Christmas Frosty Musical Transition.mp3" autoplay loop></audio> -->
     <!-- <audio src="./Audio/Christmas.mp3" autoplay loop></audio> -->
   </head>
-  
-  <body>
 
+  <body>
     <aside>
-        <div class="container">
-            <div class="todoBlock">
-              <h1>Lista de alumnos</h1>
-              <div class="todoList">
-                <div class="listHolder">
-                  <ul class="list">
-                    <!--<li>
+      <div class="container">
+        <div class="todoBlock">
+          <h1>Lista de alumnos</h1> <hr>
+          <div class="todoList">
+            <div class="listHolder">
+              <ul class="list">
+                <!--<li>
                       <span class="listName">Paola</span>
                     </li>
                     <li>
                       <span class="listName">Nohe</span>
                     </li> -->
-                  </ul>            
-                </div>
-                <div class="formHolder">
-                  <div class="cool big">
-                    <input type="text" id="addInput">
-                  </div>
-                  <div class="col">
-                    <button type="button" id="addBtn" class="btn-primary">Agregar</button>
-                  </div>
-                </div>
-              </div>
-                    
+              </ul>
             </div>
-            
+            <div class="formHolder">
+              <div class="cool big">
+                <input type="text" id="addInput" />
+              </div>
+              <div class="col">
+                <button type="button" id="addBtn" class="btn-primary">
+                  Agregar
+                </button>
+              </div>
+            </div>
           </div>
-          
+
           <div class="cntBotones">
-            <button onclick="QuitarPortadaCalendario()" id="bt-abrir-calendario">¡Abre el calendario!</button> 
+            <button
+              onclick="QuitarPortadaCalendario()"
+              id="bt-abrir-calendario">
+                 ¡Abre el calendario!
+            </button>
+
             <button onclick="onClickButton()">¡Escoge!</button>
           </div>
-    </aside>
-        
-    <section class="fotos">
-      
-      <div id="listaFotos">
-                        
+        </div>
       </div>
-      <img src="./imagenes/portada calendario.png" alt="portada-calendario" id="portada-calendario">
+    </aside>
 
+    <section class="fotos">
+      <div id="listaFotos"></div>
+
+      <!-- <div class="spin" id="printRandomName"></div> -->
+
+      <img
+        src="./imagenes/portada calendario.png"
+        alt="portada-calendario"
+        id="portada-calendario"
+      />
     </section>
     <!-- <script src="./index.js"></script>
    <script src='./fotos.js'></script> -->
-   <script src="./index.js"></script>
-    
-    
+    <script src="./index.js"></script>
   </body>
 </html>

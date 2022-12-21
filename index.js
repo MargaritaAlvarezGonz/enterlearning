@@ -28,7 +28,7 @@ function QuitarPortadaCalendario(){
 let randomNum = 0;
 //Función randomizadora
 function randomFunc(itemsLists) {
-     randomNum = Math.floor(Math.random() * itemsLists.length) + 1;
+     randomNum = Math.floor(Math.random() * itemsLists.length) + 1 ;
      let random = itemsLists[randomNum];
      console.log(random);
      return random;
@@ -50,10 +50,10 @@ let fotoParaTapar = document.getElementById(randomNum);
 fotoParaTapar.style.backgroundColor = '#C5EDE4';
 }
 
+
 function onClickButton() {
 randomFunc(itemsLists);
 tapadora(randomNum); 
-
 }
 
 
