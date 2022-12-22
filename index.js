@@ -9,7 +9,7 @@ function addLists() {
     const li = document.createElement('li');
     li.innerHTML = addInput.value;
     itemsLists.push(addInput.value);
-    addInput.value = ''; //limpia el input
+    addInput.value = '';
     ul.appendChild(li);   
 }
 
@@ -26,7 +26,6 @@ addInput.addEventListener('keyup', (event) => {
 )
 
 //Función que activa el botón para abrir el calendario
-// Funcion del boton que abre el calendario
 function QuitarPortadaCalendario(){
     document.getElementById('portada-calendario').style.display = 'none';
     document.getElementById('apartado-instrucciones').style.display = 'none';
@@ -38,13 +37,8 @@ function randomFunc(itemsLists) {
      randomNum = Math.floor(Math.random() * itemsLists.length) + 1 ;
      let random = itemsLists[randomNum];
      console.log(random);
-    //  return random;
     ctnGanador.innerHTML=`<div class='resultado'> ${random}</div>`
  }
-
-// let itemsLists = document.querySelectorAll(".list li");
-// [...itemsLists].map(alumno => alumno.textContent);
-
 
 let listaFotos = document.querySelector('#listaFotos');
 for (let i = 1; i < 26; i++) {
