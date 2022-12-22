@@ -8,6 +8,9 @@
     src: url(./fuentes/Permanent_Marker/PermanentMarker-Regular.ttf);
 }
 
+
+
+
 body {
     background-color: antiquewhite;
     display: flex;
@@ -67,84 +70,20 @@ button:hover{
     text-shadow: 1px 1px 2px #427388; 
 }
 
+
+
+
+
 .col{
     margin-left: 32%;
     margin-bottom: 17%;
 }
 
-#cntBotones{
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    margin-left: 4.5%;
-}
 
 .jello-vertical {
 	-webkit-animation: jello-vertical 0.9s both;
 	        animation: jello-vertical 0.9s both;
 }
-
- @-webkit-keyframes jello-vertical {
-    0% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
-    30% {
-      -webkit-transform: scale3d(0.75, 1.25, 1);
-              transform: scale3d(0.75, 1.25, 1);
-    }
-    40% {
-      -webkit-transform: scale3d(1.25, 0.75, 1);
-              transform: scale3d(1.25, 0.75, 1);
-    }
-    50% {
-      -webkit-transform: scale3d(0.85, 1.15, 1);
-              transform: scale3d(0.85, 1.15, 1);
-    }
-    65% {
-      -webkit-transform: scale3d(1.05, 0.95, 1);
-              transform: scale3d(1.05, 0.95, 1);
-    }
-    75% {
-      -webkit-transform: scale3d(0.95, 1.05, 1);
-              transform: scale3d(0.95, 1.05, 1);
-    }
-    100% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
-  }
-  @keyframes jello-vertical {
-    0% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
-    30% {
-      -webkit-transform: scale3d(0.75, 1.25, 1);
-              transform: scale3d(0.75, 1.25, 1);
-    }
-    40% {
-      -webkit-transform: scale3d(1.25, 0.75, 1);
-              transform: scale3d(1.25, 0.75, 1);
-    }
-    50% {
-      -webkit-transform: scale3d(0.85, 1.15, 1);
-              transform: scale3d(0.85, 1.15, 1);
-    }
-    65% {
-      -webkit-transform: scale3d(1.05, 0.95, 1);
-              transform: scale3d(1.05, 0.95, 1);
-    }
-    75% {
-      -webkit-transform: scale3d(0.95, 1.05, 1);
-              transform: scale3d(0.95, 1.05, 1);
-    }
-    100% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
-  }
-  
 
 .instructions {
     background-color: white;
@@ -193,10 +132,36 @@ button:hover{
     border: 5px solid; color: black;
 }
 
+.resultado{
+    width: 30vw;
+    height: 10vh;
+    background-color: rgba(197, 237, 228, 0.7);
+    position: absolute;
+    font-family: 'Indie_Flower';
+    font-weight: bold;
+    font-size: 4.375rem;
+    text-align: center;
+    color: white;
+    padding: 3.125rem;
+    margin: 15.625rem;
+    border-radius: 1.875rem;
+    border: 5px solid; color: black;
+}
+
+
+
+
 
 #boton-anadir{
     background-color: white;
     color: black;
+}
+
+#cntBotones{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-left: 4.5%;
 }
 
 #anadir-nombre{
@@ -258,23 +223,7 @@ button:hover{
     position: absolute;
 }
 
-.resultado{
-    width: 30vw;
-    height: 10vh;
-    background-color: rgba(197, 237, 228, 0.7);
-    position: absolute;
-    font-family: 'Indie_Flower';
-    font-weight: bold;
-    font-size: 4.375rem;
-    text-align: center;
-    color: white;
-    padding: 3.125rem;
-    margin: 15.625rem;
-    border-radius: 1.875rem;
-    border: 5px solid; color: black;
-}
 
-/* Animación contenedor ganador*/
 
 
 @media (max-width: 56.25rem){
@@ -398,3 +347,67 @@ button:hover{
             margin-left: 4.375rem;
         }
 }
+
+
+/* Animación contenedor ganador*/
+@-webkit-keyframes jello-vertical {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(0.85, 1.15, 1);
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-vertical {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(0.85, 1.15, 1);
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
