@@ -1,69 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>El Calendario seleccionador</title>
     <link rel="stylesheet" href="reset.css" />  
     <link rel="stylesheet" href="./style.css">    
-    <link rel="shortcut icon" href="/iconos/El glitzie.png">
-    
-    <!-- <audio src="./Audio/Christmas Frosty Musical Transition.mp3" autoplay loop></audio> -->
-    <!-- <audio src="./Audio/Christmas.mp3" autoplay loop></audio> -->
+    <link rel="shortcut icon" href="/iconos/El glitzie.png">  
+ 
   </head>
 
   <body>
+
     <aside>
       <div class="container">
         <div class="todoBlock">
           <h1>Lista de alumnos</h1> <hr>
           <div class="todoList">
             <div class="listHolder">
-              <ul class="list">
-                <!--<li>
-                      <span class="listName">Paola</span>
-                    </li>
-                    <li>
-                      <span class="listName">Nohe</span>
-                    </li> -->
+              <ul class="list">              
               </ul>
             </div>
             <div class="formHolder">
               <div class="cool big">
-                <input type="text" id="addInput" />
+                <input type="text" id="addInput"/>
               </div>
               <div class="col">
-                <button type="button" id="addBtn" class="btn-primary">
-                  Agregar
-                </button>
+                <button type="button" id="addBtn" class="btn-primary">Agregar</button>
               </div>
             </div>
           </div>
         </div>
-
         <div id="cntBotones" >
           <button onclick="QuitarPortadaCalendario()" id="bt-abrir-calendario" class="jello-vertical">
-            ¡Abre el calendario!
-          </button>
-
-          <button class="reproductor" onclick="onClickButton()">¡Escoge!</button>
-
+            ¡Abre el calendario!</button>
+          <button class="reproductor" onclick="onClickButton()">¡Escoge!</button> 
           <audio src="./Audio/Christmas Frosty Musical Transition.mp3"></audio>
-        </div>
-        
+        </div>        
       </div>
+
     </aside>
         
     <section class="fotos">
-      <div id="listaFotos">
-    
-      </div>
+      <div id="listaFotos"></div> 
       <img src="./imagenes/El-duende-Gltizie-portada.png" alt="portada-calendario" id="portada-calendario">
       <div id="ctnGanador"> </div>
     </section>
-    <!-- <script src="./index.js"></script>
-   <script src='./fotos.js'></script> -->
+    
     <script src="./index.js"></script>
+    
   </body>
 </html>
