@@ -110,6 +110,23 @@ button:hover{
       
 }
 
+.resultado{
+    width: 30vw;
+    height: 10vh;
+    background-color: rgba(197, 237, 228, 0.7);
+    position: absolute;
+    font-family: 'Indie_Flower';
+    font-weight: bold;
+    font-size: 4.375rem;
+    text-align: center;
+    color: white;
+    padding: 3.125rem;
+    margin: 15.625rem;
+    border-radius: 1.875rem;
+    border: 5px solid; color: black;
+}
+
+
 #boton-anadir{
     background-color: white;
     color: black;
@@ -173,23 +190,6 @@ button:hover{
     background-position: center;
     position: absolute;
 }
-
-.resultado{
-    width: 30vw;
-    height: 10vh;
-    background-color: rgba(197, 237, 228, 0.7);
-    position: absolute;
-    font-family: 'Indie_Flower';
-    font-weight: bold;
-    font-size: 4.375rem;
-    text-align: center;
-    color: white;
-    padding: 3.125rem;
-    margin: 15.625rem;
-    border-radius: 1.875rem;
-    border: 5px solid; color: black;
-}
-
 
 @media (max-width: 56.25rem){
     body{
