@@ -62,16 +62,19 @@ fotoParaTapar.style.backgroundColor = '#C5EDE4';
 function onClickButton() {
 randomFunc(itemsLists);
 tapadora(randomNum); 
+
 }
 
-//Función para que suene música al sonar el boton elegir! 
-let boton = document.querySelector(".reproductor")
-let audioEtiqueta = document.querySelector("audio")
+//Música para el botón escoge
 
-boton.addEventListener("click", () => {
-    audioEtiqueta.setAttribute("src", "ruta_a_tu_archivo")
-    audioEtiqueta.play()
-    console.log(`Reproduciendo: ${audioEtiqueta.src}`)
-    })
+  let boton = document.querySelector(".reproductor")
+  let audioEtiqueta = document.querySelector("audio")
+  
+  boton.addEventListener("click", () => {
+      audioEtiqueta.setAttribute("src", "./Audio/Christmas Frosty Musical Transition.mp3")
+      audioEtiqueta.play()
+      console.log(`Reproduciendo: ${audioEtiqueta.src}`)
+      })
+
 
 

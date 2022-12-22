@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>La ruleta navideña</title>
+    <title>El Calendario seleccionador</title>
     <link rel="stylesheet" href="reset.css" />  
     <link rel="stylesheet" href="./style.css">    
     <link rel="shortcut icon" href="">
@@ -40,25 +40,28 @@
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="cntBotones">
-            <button
-              onclick="QuitarPortadaCalendario()"
-              id="bt-abrir-calendario">
-                 ¡Abre el calendario!
-            </button>
+        <div class="cntBotones">
+          <button
+            onclick="QuitarPortadaCalendario()"
+            id="bt-abrir-calendario">
+            ¡Abre el calendario!
+          </button>
 
-            <button onclick="onClickButton()">¡Escoge!</button>
-            <audio src="./Audio/Christmas Frosty Musical Transition.mp3"></audio>
-          </div>
+          <button class="reproductor" onclick="onClickButton()">¡Escoge!</button>
+
+          <audio src="./Audio/Christmas Frosty Musical Transition.mp3"></audio>
+        </div>
+        
+      </div>
     </aside>
         
     <section class="fotos">
-      
       <div id="listaFotos">
     
       </div>
-      <img src="./imagenes/portada calendario.png" alt="portada-calendario" id="portada-calendario">
+      <img src="./imagenes/El-duende-Gltizie-portada.png" alt="portada-calendario" id="portada-calendario">
       <div id="ctnGanador"> </div>
     </section>
     <!-- <script src="./index.js"></script>

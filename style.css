@@ -205,6 +205,16 @@ button:hover{
         align-items: center;
     }
 
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .todoBlock{
+        display: flex;
+        flex-direction: column;
+    }
+
     section {
         background-color: #C50537 ;
         width: 100vw;
